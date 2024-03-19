@@ -7,15 +7,15 @@
     <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" />
     <title>BACKGROUND EDITOR</title>
   </head>
-  <body>
-    <main class="max-w-full md:my-52 my-20 transition-all max-h-screen">
-      <div class="flex flex-col text-center items-center justify-center gap-5 bg-white">
-      <h1 class="md:text-5xl text-lg font-bold">WELCOME TO BACKGROUND IMAGE EDITOR</h1>
-      <p class="md:text-2xl text-base font-semibold">Click the button below to change the current background</p>
-      <div class="flex flex-row gap-5">
-        <button data-button class="mt-5 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 py-3 px-10 text-white md:text-xl text-lg font-bold rounded-lg">CLICK</button>
-        <button data-reset class="mt-5 border border-solid bg-gradient-to-r hover:from-pink-500 hover:to-yellow-500 py-3 px-10 text-black md:text-xl text-lg font-bold rounded-lg">RESET</button>
-      </div>
+  <body class="flex justify-center items-center h-screen">
+    <main class="max-w-full transition-all">
+      <div class="flex flex-col text-center items-center justify-center gap-5 backdrop">
+        <h1 class="md:text-5xl text-lg font-bold">WELCOME TO BACKGROUND IMAGE EDITOR</h1>
+        <p class="md:text-2xl text-base font-semibold">Click the button below to change the current background</p>
+        <div class="flex flex-row gap-5">
+          <button data-button class="mt-5 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 py-3 px-10 text-white md:text-xl text-lg font-bold rounded-lg">CLICK</button>
+          <button data-reset class="mt-5 border border-solid bg-gradient-to-r hover:from-pink-500 hover:to-yellow-500 py-3 px-10 text-black md:text-xl text-lg font-bold rounded-lg">RESET</button>
+        </div>
       </div>
     </main>
   </body>
