@@ -1,22 +1,13 @@
-This simple web page allows you to click a button and change the background of the page.
+# Background Changer 
+- This simple web page allows you to click a button and change the background of the page.
 
+## Project Owner:
+- Chibuikem Iroaganachi
 
-Project Owner:
-
-
-Chibuikem Iroaganachi
-
-
-Contributors and Collaborators:
-
-
-Miracle Emenike @miraclemenikelechi
-
-
-Ebere Okeke @heybeenita
-
-
-Amarachi Iheakam @cozyamy
+### Contributors and Collaborators:
+- [Miracle Emenike](https://github.com/miraclemenikelechi)
+- [Ebere Okeke](heybeenita)
+- [Amarachi Iheakam](Cozyamy)
 
 
 ![Screenshot (14)](https://github.com/ikem-iro/Team_work-Assignment/assets/91735752/01e327e2-8ea2-4b2f-9653-008118346c25)
