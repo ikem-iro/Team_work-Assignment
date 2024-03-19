@@ -1,3 +1,7 @@
+/**
+ * The function randomly changes the background image of the body element on button click from a
+ * predefined array of image URLs.
+ */
 const bodyEl = document.body;
 const buttonEl = document.querySelector(`[data-button]`);
 const resetButtonEl = document.querySelector(`[data-reset]`);
